@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://192.168.29.89:7867/api/user/"
+  baseURL: "https://qa-backend-e5u7.onrender.com/api/user/"
 });
 
 export const uploadDocumentAPI = (file) => {
